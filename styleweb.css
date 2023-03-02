@@ -38,7 +38,8 @@ button {
     margin: 28vh auto 20px 40vw;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     color: #000000;
     background: #ffffff;
 }
@@ -172,16 +173,20 @@ h2 {
     margin-right: 682px;
 
 }
-.rab{margin-top: 20px;
-    text-align: 1px;
-width: 400px;
-height: 70px;}
 
-#esquerda{
+.rab {
+    margin-top: 20px;
+    text-align: 1px;
+    width: 400px;
+    height: 70px;
+}
+
+#esquerda {
     margin-left: 89px;
 }
 
-#direita{margin-left: 100px;
+#direita {
+    margin-left: 100px;
 
 }
 
@@ -238,4 +243,256 @@ height: 70px;}
 
 #blue {
     color: #2690D4;
+}
+
+
+@media(max-width:1158px) {
+    h1 {
+        margin-left: -100px;
+        font-size: 30px;
+        position: absolute;
+
+    }
+}
+
+#p-cabecalho {
+    margin-left: 50px;
+    width: 600px;
+}
+
+button {
+    margin-top: 352px;
+    margin-left: 260px;
+}
+
+h2 {
+    margin-left: 220px;
+}
+
+.p-web {
+    display: block;
+    width: 400px;
+    height: 100px;
+    margin-left: 260px;
+    text-align: justify;
+}
+
+#web-1 {
+    margin-left: 200px;
+}
+
+#web-2 {
+    margin-left: 200px;
+}
+
+.blocos {
+    height: 1500px
+}
+
+.bloquinhos {
+    display: block;
+
+}
+
+#webr {
+    margin-left: 240px;
+    margin-top: 40px;
+}
+
+#mobile {
+    margin-left: 240px;
+    margin-top: 40px;
+}
+
+#tech {
+    margin-left: 240px;
+    margin-top: 40px;
+}
+
+#important {
+    width: 350px;
+    margin-left: 210px;
+
+}
+
+#roger {
+    margin-top: 40px;
+    width: 300px;
+    margin-left: 210px;
+}
+
+#left {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    margin-left: -30px;
+}
+
+#right {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    margin-top: 360px;
+    margin-left: -30px;
+}
+
+.titulo-2 {
+    margin-left: 140px;
+    position: absolute;
+    margin-left: 200px;
+}
+
+#link-contact {
+    position: absolute;
+    margin-top: 270px;
+    margin-left: -300px;
+}
+
+.rab {
+    position: absolute;
+    margin-top: 150px;
+    text-align: justify;
+}
+
+.footer {
+    display: none;
+}
+
+@media(max-width:655px) {
+    .cabecalho {
+        height: 63vh;
+    }
+
+    h1 {
+        margin-left: -255px;
+        font-size: 20px;
+        position: absolute;
+        width: ;
+    }
+}
+
+#p-cabecalho {
+    margin-left: 50px;
+    width: 250px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+button {
+    margin-top: 352px;
+    margin-left: 100px;
+}
+
+h2 {
+    margin-left: 100px;
+}
+
+.p-web {
+    display: block;
+    width: 270px;
+    height: 100px;
+    margin-left: 100px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+#web-1 {
+    margin-left: 50px;
+    font-size: 14px;
+    width: 270px;
+}
+
+#web-2 {
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+.blocos {
+    height: 1500px
+}
+
+.bloquinhos {
+    display: block;
+
+}
+
+#webr {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+#mobile {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+#tech {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+#important {
+    width: 350px;
+    margin-left: 40px;
+    font-size: 20px;
+
+}
+
+#roger {
+    margin-top: 40px;
+    width: 250px;
+    margin-left: 90px;
+}
+
+#left {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    margin-left: -30px;
+}
+
+#right {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    margin-top: 360px;
+    margin-left: -30px;
+}
+
+.titulo-2 {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+#link-contact {
+    position: absolute;
+    margin-top: 270px;
+    margin-left: -300px;
+}
+
+.rab {
+    position: absolute;
+    margin-top: 150px;
+    text-align: justify;
+}
+
+.footer {
+    display: none;
+}
+
+#esquerda {
+    margin-left: 40px;
+    width: 314px;
+    font-size: 18px;
+    margin-top: 102px;
+}
+
+#direita {
+    margin-left: 40px;
+    width: 314px;
+    margin-top: 100px;
+}
+#about{
+      margin-left: 90px;  
 }

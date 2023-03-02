@@ -246,14 +246,14 @@ h2 {
 }
 
 
-@media(max-width:1158px) {
+@media(max-width: 1158px) {
     h1 {
         margin-left: -100px;
         font-size: 30px;
         position: absolute;
 
     }
-}
+
 
 #p-cabecalho {
     margin-left: 50px;
@@ -358,17 +358,17 @@ h2 {
     display: none;
 }
 
-@media(max-width:655px) {
-    .cabecalho {
-        height: 63vh;
-    }
+
+@media(max-width: 655px) {
+        .cabecalho {
+            height: 63vh;
+        }
 
     h1 {
         margin-left: -255px;
         font-size: 20px;
         position: absolute;
-        width: ;
-    }
+                }
 }
 
 #p-cabecalho {
@@ -493,6 +493,160 @@ h2 {
     width: 314px;
     margin-top: 100px;
 }
-#about{
-      margin-left: 90px;  
+
+#about {
+    margin-left: 90px;
+}
+@media (max-width:350px){
+    .cabecalho {
+        height: 50vh;
+    }
+
+    
+    h1 {
+        margin-left: -295px;
+        font-size: 15px;
+        position: absolute;
+                }
+}
+
+
+#p-cabecalho {
+    margin-left: 24px;
+    width: 180px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+button {
+    width: 77px;
+    height: 13px;
+    margin-top: 352px;
+    margin-left: 80px;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 8px;
+ 
+
+}
+
+h2 {
+    margin-left: 80px;
+    font-size: 18px;
+}
+
+.p-web {
+    display: block;
+    width: 190px;
+    height: 100px;
+    margin-left: 80px;
+    text-align: justify;
+    font-size: 12px;
+}
+
+#web-1 {
+    margin-left: 50px;
+    font-size: 12px;
+    width: 190px;
+}
+
+#web-2 {
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+.blocos {
+    height: 1400px
+}
+
+.bloquinhos {
+    display: block;
+ 
+}
+
+#webr {
+    margin-left: 1px;
+    margin-top: 40px;
+
+}
+
+#mobile {
+    margin-left: 1px;
+    margin-top: 40px;
+}
+
+#tech {
+    margin-left: 1px;
+    margin-top: 40px;
+}
+
+#important {
+    width: 350px;
+    margin-left: -15px;
+    font-size: 16px;
+
+}
+
+#roger {
+    margin-top: 50px;
+    width: 180px;
+    margin-left: 60px;
+    text-align: justify;
+    font-size: 14px;
+   }
+
+#left {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    margin-left: -30px;
+}
+
+#right {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    margin-top: 360px;
+    margin-left: -30px;
+}
+
+.titulo-2 {
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 30px;
+}
+
+#link-contact {
+    position: absolute;
+    margin-top: 270px;
+    margin-left: -300px;
+}
+
+.rab {
+    position: absolute;
+    margin-top: 150px;
+    text-align: justify;
+}
+
+.footer {
+    display: none;
+}
+
+#esquerda {
+    margin-left: 50px;
+    width: 210px;
+    font-size: 14px;
+    margin-top: 102px;
+}
+
+#direita {
+    margin-left: 50px;
+    width: 210px;
+    margin-top: 100px;
+}
+
+#about {
+    margin-left: 50px;
+    font-size: 25px;
 }
